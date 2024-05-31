@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <style>
+        body, html {
+            height: 100%; /* Ensures the full height of the viewport is used */
+            margin: 0;
+            background: #f0f0f0; /* Soft gray background for a neutral look */
+            color: #333; /* Dark gray text for contrast */
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Sleek, modern font */
+            position: relative; /* Needed for positioning other elements */
+        }	
+        .star-rating {
+            direction: rtl; /* Right to left to enable proper star highlighting */
+            font-size: 30px; /* Size of the stars */
+            unicode-bidi: bidi-override; /* Ensure the stars stay in the right order */
+        }
+        .star-rating input {
+            display: none; /* Hide the radio buttons */
+        }
+        .star-rating label {
+            color: #ccc; /* Default star color */
+            cursor: pointer;
+        }
+        .star-rating label:hover,
+        .star-rating label:hover ~ label,
+        .star-rating input:checked ~ label {
+            color: gold; /* Highlight color when hovered or selected */
+        }
+        .review-input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Review</h1>
+    <form id="reviewForm">
+        <div class="star-rating">
+            <input id="star5" name="rating" type="radio" value="5" />
+            <label for="star5">&#9733;</label>
+            <input id="star4" name="rating" type="radio" value="4" />
+            <label for="star4">&#9733;</label>
+            <input id="star3" name="rating" type="radio" value="3" />
+            <label for="star3">&#9733;</label>
+            <input id="star2" name="rating" type="radio" value="2" />
+            <label for="star2">&#9733;</label>
+            <input id="star1" name="rating" type="radio" value="1" />
+            <label for="star1">&#9733;</label>
+        </div>
+        <textarea class="review-input" name="review" rows="5" placeholder="Write your review here..."></textarea>
+        <button type="submit">Submit Review</button>
+    </form>
+
+    <script>
+        document.getElementById('reviewForm').onsubmit = function(e) {
+            e.preventDefault();
+            const rating = document.querySelector('input[name="rating"]:checked').value;
+            const review = document.querySelector('textarea[name="review"]').value;
+            console.log('Rating:', rating, 'Review:', review);
+            // Here you could add an AJAX call to send the data to the server
+            alert(`Thanks for your review!\nRating: ${rating} stars\nReview: ${review}`);
+        };
+    </script>
+</body>
+</html>
