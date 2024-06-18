@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa; /* A light grey background */
+        }
+        .container {
+            background-color: #ffffff; /* White background for the form */
+            padding: 20px;
+            border-radius: 8px; /* Rounded corners for the form container */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+            max-width: 500px; /* Maximum width of the form container */
+        }
+        h2 {
+            text-align: center; /* Center-align the form heading */
+            color: #333; /* Dark grey color for the heading text */
+            margin-bottom: 20px; /* Space below the heading */
+        }
+        label {
+            font-weight: bold; /* Bold font for input labels */
+        }
+        button {
+            width: 100%; /* Full width for the submit button */
+            padding: 10px; /* Padding inside the button */
+            font-size: 16px; /* Larger font size for better readability */
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Registration Form</h2>
+    <form action="/submit-your-form-handler" method="POST">
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" class="form-control" id="dob" name="dob" required max="{{currentDate}}">
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar</button>
+    </form>
+</div>
+<script>
+    document.getElementById('dob').max = new Date().toISOString().split('T')[0];
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
