@@ -14,7 +14,6 @@
             background: #f0f0f0;
             color: #333;
             font-family: 'Playfair Display', Arial, sans-serif;
-            position: relative;
         }
         .container {
             min-height: 100vh;
@@ -24,6 +23,7 @@
             align-items: center;
             text-align: center;
             padding: 20px;
+            padding-top: 80px; /* Added space to account for the fixed header */
         }
         .card {
             width: 100%;
@@ -41,44 +41,32 @@
             max-width: 100%;
             height: auto;
         }
-        .offer-text {
-            font-size: 1.5em;
-            color: #2c3e50;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .description {
-            font-size: 1.2em;
-            color: #444;
-            margin: 10px auto;
-        }
-        .footer-cards .card {
-            margin: 10px;
-            transition: transform 0.3s ease;
-        }
-        .footer-cards .card:hover {
-            transform: scale(1.05);
-        }
-        .whatsapp-link {
+        .fixed-top-bar {
             position: fixed;
-            top: 10px;
-            right: 10px;
-            color: #25D366;
-            font-weight: bold;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
             z-index: 9999;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
+		
+    .home-logo {
+        text-decoration: none; /* Elimina el subrayado */
+        display: inline-block; /* Asegura un área de clic definida */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Añade transiciones elegantes */
+    }
+
+    .home-logo:hover {
+        background-color: #f8f9fa; /* Cambia el color de fondo al pasar el mouse */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un efecto de sombra sutil */
+    }
+
         .whatsapp-link img {
-            width: 50px;
-            height: auto;
-            cursor: pointer;
-        }
-        .home-logo {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            z-index: 1000;
-        }
-        .home-logo img {
             width: 50px;
             height: auto;
             cursor: pointer;
@@ -86,10 +74,18 @@
     </style>
 </head>
 <body>
-    <!-- Logo Link to Home -->
-    <a href="index.html" class="home-logo">
-        <img src="images/home.png" alt="Home">
-    </a>
+
+    <!-- Fixed Section with Home Link -->
+    <div class="fixed-top-bar">
+        <a href="index.html" class="text-muted home-logo">Hayati</a>
+        <span class="text-muted">Oferta del Mes</span>
+		<span>
+			<!-- Enlace de WhatsApp -->
+			<a href="https://wa.me/13852159190?text=I'm%20interested%20in%20your%20product" class="whatsapp-link">
+				<img src="images/whatsapp-image.webp" alt="Mensaje de WhatsApp">
+			</a>
+		</span>
+    </div>
 
     <div class="container">
         <!-- Sección de la Oferta del Mes -->
@@ -100,35 +96,19 @@
                 <img src="images/offer-month.png" alt="Oferta Especial Dumont Nitro Red EDP Spray" class="offer-img img-fluid my-4" loading="lazy">
                 <h2 class="h4 text-center font-weight-bold">Dumont Nitro Red Eau de Parfum para Hombres – 3.4 oz (100 ml)</h2>
                 <p class="text-center mt-3">Descubre la intensidad y sofisticación de Dumont Nitro Red, una fragancia masculina que combina notas aromáticas y afrutadas para el hombre moderno.</p>
-                <p class="text-center mt-3"><strong>Notas Olfativas:</strong></p>
                 <ul class="list-unstyled text-center">
                     <li><strong>Notas de Salida:</strong> Manzana, Lavanda, Bergamota</li>
                     <li><strong>Notas de Corazón:</strong> Sandía, Cedro, Cálamo</li>
                     <li><strong>Notas de Fondo:</strong> Ámbar, Sándalo, Pachulí</li>
                 </ul>
-                <p class="text-center mt-3"><strong>Características Destacadas:</strong></p>
-                <ul class="list-unstyled text-center">
-                    <li><strong>Duración Prolongada:</strong> Su concentración en Eau de Parfum garantiza una estela duradera que te acompañará durante todo el día.</li>
-                    <li><strong>Diseño Elegante:</strong> Presentado en un frasco rojo vibrante de 3.4 oz (100 ml), refleja la pasión y energía de la fragancia en su interior.</li>
-                    <li><strong>Versatilidad:</strong> Ideal para cualquier ocasión, desde reuniones de negocios hasta eventos sociales, aportando un toque de distinción y confianza.</li>
-                </ul>
                 <p class="text-center mt-3"><strong>Precio Especial:</strong> Antes $75.00, ahora disponible por $32.99.</p>
                 <div class="text-center mt-4">
                     <a href="#" class="btn btn-primary btn-lg">Compra Ahora</a>
                 </div>
-                <p class="text-center text-muted mt-3"><small>*Nota: Disponibilidad limitada. Aprovecha esta oferta exclusiva antes de que se agote.</small></p>
             </div>
         </div>
-
-
     </div>
 
-    <!-- Enlace de WhatsApp con el número de teléfono real -->
-    <a href="https://wa.me/13852159190?text=I'm%20interested%20in%20your%20product" class="whatsapp-link">
-        <img src="images/whatsapp-image.webp" alt="Mensaje de WhatsApp">
-    </a>
-
-    <!-- Bootstrap Bundle con Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -20,6 +20,7 @@
             max-width: 1200px;
             margin: auto;
             padding: 20px;
+			padding-top: 80px; /* Added space to account for the fixed header */
         }
         .card {
             max-width: 100%;
@@ -49,21 +50,47 @@
 		}
 		
 		
-		.whatsapp-link {
-			position: fixed;
-			top: 10px; /* Adjust the distance from the top */
-			right: 10px; /* Adjust the distance from the right */
-			z-index: 9999; /* Ensure it appears on top of other elements */
-		}
-		.whatsapp-link img {
-			width: 50px; /* Adjust size as needed */
-			height: auto;
-			cursor: pointer; /* Makes it clear that it’s clickable */
-		}
+
+        .fixed-top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            z-index: 9999;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+		
+        .home-logo img {
+            width: 50px;
+            height: auto;
+        }
+
+        .whatsapp-link img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+        }	
 
     </style>
 </head>
 <body>
+
+    <!-- Fixed Section with Home Link -->
+    <div class="fixed-top-bar">
+        <span class="text-muted">Explora Perfumes Hayati – Fragancias que Inspiran</span>
+		<span>
+			<!-- Enlace de WhatsApp -->
+			<a href="https://wa.me/13852159190?text=I'm%20interested%20in%20your%20product" class="whatsapp-link">
+				<img src="images/whatsapp-image.webp" alt="Mensaje de WhatsApp">
+			</a>
+		</span>
+    </div>
+	
     <div class="container">
         <!-- Sección de la Oferta del Mes -->
         <div class="row justify-content-center">
