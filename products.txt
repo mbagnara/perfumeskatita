@@ -1,0 +1,3 @@
+image,name,description,price
+product1.jpg,Perfume Nuevo,Descripción del perfume A,75
+product1.jpg,Perfume arabe,Descripción del perfume A,12.99
