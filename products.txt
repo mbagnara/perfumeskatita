@@ -1,3 +1,6 @@
-image,name,description,price
-product1.jpg,Perfume Nuevo,Descripción del perfume A,75
-product1.jpg,Perfume arabe,Descripción del perfume A,12.99
+image,name,description,labelprice,price
+product1.jpg,Perfume Dos,Descripción del perfume Dos,Precio:,12
+product1.jpg,Perfume Tres,Descripción del perfume Tres,Precio:,87
+offer-month.png,Dumont Nitro Red Eau - 100 ml,fragancia masculina que combina notas aromáticas y afrutadas para el hombre moderno,Precio Especial:, ahora disponible por $32.99.
+product1.jpg,Perfume Cuatro,Descripción del perfume Cuatro,Precio:,66.12
+product1.jpg,Perfume Cinco,Descripción del perfume Cinco,Precio:,15

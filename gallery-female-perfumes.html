@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <style>
+        
+     
         .card-title {
             color: #db7093; /* Soft pink color for titles */
         }
@@ -57,7 +59,8 @@
                     image: values[0]?.trim(),
                     name: values[1]?.trim(),
                     description: values[2]?.trim(),
-                    price: values[3]?.trim(),
+                    labelprice: values[3]?.trim(),
+                    price: values[4]?.trim(),
                 };
             });
 
@@ -66,15 +69,20 @@
                 const col = document.createElement('div');
                 col.className = 'col-lg-3 col-md-4 col-sm-6 mb-4';
                 col.innerHTML = `
+                    <!-- Sección de la Oferta del Mes -->
                     <div class="card">
-                        <img src="images/${product.image}" class="card-img-top" alt="${product.name}" onerror="this.src='images/placeholder.jpg';">
-                        <div class="card-body">
-                            <h5 class="card-title">${product.name}</h5>
-                            <p class="card-text">${product.description}</p>
-                            <p class="card-text">Price: ${product.price}</p>
+                        <div class="card-body">  
+                            <img src="images/${product.image}" alt="${product.name}" class="offer-img img-fluid my-4" loading="lazy">
+                            <h2 class="h4 text-center font-weight-bold">${product.name}</h2>
+                            <p class="text-center mt-3">${product.description}</p>
+                            <p class="text-center mt-3"><strong>${product.labelprice}</strong> ${product.price}</p>
+                            <div class="text-center mt-4">
+                                <a href="#" class="btn btn-primary btn-lg">Compra Ahora</a>
+                            </div>
                         </div>
                     </div>
-                `;
+                `
+                ;
                 gallery.appendChild(col);
             });
         } catch (error) {
