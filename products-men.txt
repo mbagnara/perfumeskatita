@@ -1,0 +1,18 @@
+image,name,description,labelprice,price
+../images/images-men/afnan-mens-turathi-blue-edp-spray-30-oz-fragrances-6290171070580_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/afnan-perfumes-mens-9pm-edp-spray-34-oz100ml-fragrances-6290171002338-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-club-de-nuit-intense-edt-36-oz-105-ml-6085010044712_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-club-de-nuit-urban-edp-spray-36-oz-fragrances-6294015102642_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-club-de-nuit-urban-elixir-edp-spray-355-oz-fragrances-6294015163513_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-nomad-the-wanderer-edp-spray-338-oz-fragrances-6294015155655-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-odyssey-homme-white-edition-edp-spray-34-oz-fragrances-6294015109320_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/armaf-mens-tag-uomo-rosso-edp-spray-34-oz-fragrances-3700675120023_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/fragrance-world-mens-spectre-wraith-edp-spray-27-oz-fragrances-6290360375823_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/lattafa-mens-jasoor-edp-spray-34-oz-fragrances-6290360591513_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/lattafa-mens-the-kingdom-edp-spray-34-oz-fragrances-6290360598345_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/maison-alhambra-mens-jean-lowe-matiere-edp-34-oz-fragrances-6291108735558_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/odyssey-homme-armaf-for-men-34-oz-edp-spray-6294015109313_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/rasasi-mens-hawas-edp-spray-34-oz-fragrances-614514331026_1-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/rasasi-mens-hawas-ice-eau-de-perfume-spray-338-oz-fragrances-614514331040_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/reyane-tradition-mens-insurrection-ii-wild-edt-30-oz-fragrances-3700066700728_1-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-men/tag-him-pour-homme-by-armaf-for-men-34-oz-edt-spray-6085010090030_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12

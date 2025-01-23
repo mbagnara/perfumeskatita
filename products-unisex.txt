@@ -1,0 +1,12 @@
+image,name,description,labelprice,price
+../images/images-unisex/al-haramain-unisex-amber-oud-dubai-night-extrait-de-parfum-spray-25-oz-fragrances-6291106814897_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/al-haramain-unisex-amber-oud-gold-edition-edp-spray-40-oz-fragrances-6291100130498-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/armaf-unisex-club-de-nuit-untold-edp-spray-36-oz-105-ml-6294015164176-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-mens-badee-al-oud-sublime-edp-34-oz-fragrances-6290360593142_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-angham-edp-spray-34-oz-fragrances-6290360598338_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-badee-al-oud-amethyst-edp-spray-338-oz-fragrances-6291108733875_1-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-badee-al-oud-honor-glory-edp-spray-34-oz-fragrances-6290360593135-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-liam-blue-shine-edp-34-oz-fragrances-6290360591520-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-najdia-intense-edp-spray-34-oz-fragrances-6290360599458_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/lattafa-unisex-oudain-edp-spray-34-oz-fragrances-6291108733219-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-unisex/swiss-arabian-unisex-shaghaf-oud-aswad-edp-spray-25-oz-fragrances-6295124030475_2-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
