@@ -1,13 +1,13 @@
 image,name,description,labelprice,price
-../images/images-women/afnan-faten-white-edp-spray-34-oz-fragrances-6290171054023-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/afnan-ladies-supremacy-edp-34-oz-fragrances-6290171002055_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/armaf-ladies-club-de-nuit-edp-spray-36-oz-105-ml-6085010094151_1-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/armaf-ladies-club-de-nuit-intense-edp-spray-36-oz-fragrances-6085010094977_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/armaf-ladies-club-de-nuit-white-imperiale-edp-spray-36-oz-100-ml-6294015164169_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/armaf-ladies-odyssey-candee-edp-spray-34-oz-fragrances-6294015188622_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/armaf-ladies-tag-her-pour-femme-edp-spray-34-oz-fragrances-6085010094991-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/bharara-ladies-champagne-pink-edp-spray-42-oz-fragrances-0019213947118-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/lattafa-ladies-mayar-edp-34-oz-fragrances-6291108732496-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/lattafa-ladies-sondos-edp-spray-34-oz-fragrances-6290360590172_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/maison-alhambra-ladies-alive-now-edp-spray-34-oz-fragrances-6290360590783_1-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
-../images/images-women/maison-alhambra-ladies-lintrude-edp-spray-34-oz-fragrances-6291108730171_2-removebg-preview.png,Perfume Dos,Descripción del perfume Dos,Precio:,12
+../images/images-women/afnan-faten-white-edp-spray-34-oz-fragrances-6290171054023-removebg-preview.png,AFNAN,Faten White EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/afnan-ladies-supremacy-edp-34-oz-fragrances-6290171002055_2-removebg-preview.png,AFNAN,Ladies Supremacy EDP 3.4 oz Fragrances,Precio:,12
+../images/images-women/armaf-ladies-club-de-nuit-edp-spray-36-oz-105-ml-6085010094151_1-removebg-preview.png,ARMAF,Ladies Club De Nuit EDP Spray 3.6 oz (105 ml),Precio:,12
+../images/images-women/armaf-ladies-club-de-nuit-intense-edp-spray-36-oz-fragrances-6085010094977_2-removebg-preview.png,ARMAF,Ladies Club De Nuit Intense EDP Spray 3.6 oz Fragrances,Precio:,12
+../images/images-women/armaf-ladies-club-de-nuit-white-imperiale-edp-spray-36-oz-100-ml-6294015164169_2-removebg-preview.png,ARMAF,Ladies Club De Nuit White Imperiale EDP Spray 3.6 oz (100 ml),Precio:,12
+../images/images-women/armaf-ladies-odyssey-candee-edp-spray-34-oz-fragrances-6294015188622_2-removebg-preview.png,ARMAF,Ladies Odyssey Candee EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/armaf-ladies-tag-her-pour-femme-edp-spray-34-oz-fragrances-6085010094991-removebg-preview.png,ARMAF,Ladies Tag Her Pour Femme EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/bharara-ladies-champagne-pink-edp-spray-42-oz-fragrances-0019213947118-removebg-preview.png,BHARARA,Ladies Champagne Pink EDP Spray 4.2 oz Fragrances,Precio:,12
+../images/images-women/lattafa-ladies-mayar-edp-34-oz-fragrances-6291108732496-removebg-preview.png,LATTAFA,Ladies Mayar EDP 3.4 oz Fragrances,Precio:,12
+../images/images-women/lattafa-ladies-sondos-edp-spray-34-oz-fragrances-6290360590172_2-removebg-preview.png,LATTAFA,Ladies Sondos EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/maison-alhambra-ladies-alive-now-edp-spray-34-oz-fragrances-6290360590783_1-removebg-preview.png,MAISON ALHAMBRA,Ladies Alive Now EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/maison-alhambra-ladies-lintrude-edp-spray-34-oz-fragrances-6291108730171_2-removebg-preview.png,MAISON ALHAMBRA,Ladies L'Intrude EDP Spray 3.4 oz Fragrances,Precio:,12
