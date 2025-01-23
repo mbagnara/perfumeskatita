@@ -23,7 +23,7 @@
     <!-- Fixed Section with Home Link -->
     <div class="fixed-top-bar">
         <a href="index.html" class="text-dark text-left home-logo">KAYSIS</a>
-        <span class="text-dark text-left">Perfumes para Ellas</span>
+        <span class="text-dark text-left">Perfumes para Ellos</span>
         <span>
             <!-- Enlace de WhatsApp -->
             <a href="https://wa.me/18018756181?text=I'm%20interested%20in%20your%20product" class="whatsapp-link">
@@ -45,7 +45,7 @@
     // Función para cargar y desplegar productos
     async function displayProducts() {
         try {
-            const response = await fetch('/products-women.txt');
+            const response = await fetch('/products-men.txt');
             if (!response.ok) throw new Error('No se pudo cargar el archivo products.txt');
             
             const text = await response.text();
