@@ -1,0 +1,60 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background: #f0f0f0;
+	color: #333;
+	font-family: 'Playfair Display', Arial, sans-serif;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+	padding-top: 80px; /* Added space to account for the fixed header */
+}
+.card {
+	max-width: 100%;
+	margin: auto;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.row {
+	margin: 0;
+}
+
+.fixed-top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	z-index: 9999;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	color: #db7093; /* Color rosa suave */				
+}
+
+		.home-logo {
+			text-decoration: none; /* Elimina el subrayado */
+			display: inline-block; /* Asegura un área de clic definida */
+			transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Añade transiciones elegantes */
+		}
+
+		.home-logo:hover {
+			background-color: #f8f9fa; /* Cambia el color de fondo al pasar el mouse */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un efecto de sombra sutil */
+		}
+		
+		
+.whatsapp-link img {
+	width: 50px;
+	height: auto;
+	cursor: pointer;
+}	
