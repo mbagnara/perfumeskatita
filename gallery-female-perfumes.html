@@ -91,10 +91,9 @@
         function redirectToDetail(image, name, description, labelprice) {
             const params = { image, name, description, labelprice };
             const encodedParams = btoa(JSON.stringify(params));
-            //window.location.href = `detalle.html?data=${encodedParams}`;
 
             // Construir el enlace a la página detalle.html con parámetros codificados
-            const detailPageLink = `detalle.html?data=${encodedParams}`;            
+            const detailPageLink = `${window.location.origin}/detalle.html?data=${encodedParams}`;    
 
             // Generar enlace de WhatsApp
             const whatsappMessage = `Hola Katherine, agradeceria informacion sobre este perfume: ${name}. Puedes ver más detalles aquí: ${detailPageLink}`;
