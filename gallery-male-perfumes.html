@@ -53,12 +53,12 @@
                 const headers = lines.shift().split(',');
                 const products = lines.map(line => {
                 const values = line.split(',');
-                return {
-                    image: values[0]?.trim().replace(/'/g, "\\'"),
-                    name: values[1]?.trim().replace(/'/g, "\\'"),
-                    description: values[2]?.trim().replace(/'/g, "\\'"),
-                    labelprice: values[3]?.trim().replace(/'/g, "\\'"),
-                    price: values[4]?.trim().replace(/'/g, "\\'")
+                    return {
+                        image: values[0]?.trim().replace(/'/g, "'"),
+                        name: values[1]?.trim().replace(/'/g, "'"),
+                        description: values[2]?.trim().replace(/'/g, "'"),
+                        labelprice: values[3]?.trim().replace(/'/g, "'"),
+                        price: values[4]?.trim().replace(/'/g, "'")
                     };
                 });
 
