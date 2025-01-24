@@ -41,16 +41,30 @@ body, html {
 	color: #db7093; /* Color rosa suave */				
 }
 
-		.home-logo {
-			text-decoration: none; /* Elimina el subrayado */
-			display: inline-block; /* Asegura un área de clic definida */
-			transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Añade transiciones elegantes */
-		}
+.fixed-bottom-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1030;
+	background-color: #f8f9fa;
+	border-top: 1px solid #dee2e6;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
 
-		.home-logo:hover {
-			background-color: #f8f9fa; /* Cambia el color de fondo al pasar el mouse */
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un efecto de sombra sutil */
-		}
+.home-logo {
+	text-decoration: none; /* Elimina el subrayado */
+	display: inline-block; /* Asegura un área de clic definida */
+	transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Añade transiciones elegantes */
+}
+
+.home-logo:hover {
+	background-color: #f8f9fa; /* Cambia el color de fondo al pasar el mouse */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un efecto de sombra sutil */
+}
 		
 		
 .whatsapp-link img {
