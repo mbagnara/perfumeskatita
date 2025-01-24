@@ -91,7 +91,17 @@
         function redirectToDetail(image, name, description, labelprice) {
             const params = { image, name, description, labelprice };
             const encodedParams = btoa(JSON.stringify(params));
-            window.location.href = `detalle.html?data=${encodedParams}`;
+            //window.location.href = `detalle.html?data=${encodedParams}`;
+
+            // Construir el enlace a la página detalle.html con parámetros codificados
+            const detailPageLink = `detalle.html?data=${encodedParams}`;            
+
+            // Generar enlace de WhatsApp
+            const whatsappMessage = `Hola Katherine, agradeceria informacion sobre este perfume: ${name}`;
+            const whatsappLink = `https://wa.me/18018756181?text=${encodeURIComponent(whatsappMessage)}`;
+
+            // Redirigir a WhatsApp o a detalle.html según sea necesario
+            window.open(whatsappLink, '_blank'); // Abre WhatsApp en una nueva pestaña
         }
 
         // Llamar a la función
