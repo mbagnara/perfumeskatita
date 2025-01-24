@@ -10,4 +10,4 @@ image,name,description,labelprice,price
 ../images/images-women/lattafa-ladies-mayar-edp-34-oz-fragrances-6291108732496-removebg-preview.png,LATTAFA,Ladies Mayar EDP 3.4 oz Fragrances,Precio:,12
 ../images/images-women/lattafa-ladies-sondos-edp-spray-34-oz-fragrances-6290360590172_2-removebg-preview.png,LATTAFA,Ladies Sondos EDP Spray 3.4 oz Fragrances,Precio:,12
 ../images/images-women/maison-alhambra-ladies-alive-now-edp-spray-34-oz-fragrances-6290360590783_1-removebg-preview.png,MAISON ALHAMBRA,Ladies Alive Now EDP Spray 3.4 oz Fragrances,Precio:,12
-../images/images-women/maison-alhambra-ladies-lintrude-edp-spray-34-oz-fragrances-6291108730171_2-removebg-preview.png,MAISON ALHAMBRA,Ladies L'Intrude EDP Spray 3.4 oz Fragrances,Precio:,12
+../images/images-women/maison-alhambra-ladies-lintrude-edp-spray-34-oz-fragrances-6291108730171_2-removebg-preview.png,MAISON ALHAMBRA,Ladies L Intrude EDP Spray 3.4 oz Fragrances,Precio:,12
