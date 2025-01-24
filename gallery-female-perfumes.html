@@ -14,6 +14,18 @@
         .card-text {
             color: #555; /* Soft gray for text */
         }
+
+
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: white;
+            border: none;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #20ba5a; /* Slightly darker shade for hover effect */
+        }
+
     </style>
 </head>
 <body>
@@ -75,7 +87,7 @@
                                 <p class="text-center mt-3">${product.description}</p>
                                 <p class="text-center mt-3"><strong>${product.labelprice}</strong> ${product.price}</p>
                                 <div class="text-center mt-4">
-                                    <a href="#" class="btn btn-primary btn-lg" onclick="redirectToDetail('${product.image}', '${product.name}', '${product.description}', '${product.price}')">Chatea con nosotros</a>
+                                    <a href="#" class="btn btn-primary btn-lg btn-whatsapp whatsapp-link" onclick="redirectToDetail('${product.image}', '${product.name}', '${product.description}', '${product.price}')"><img src="images/whatsapp-image.webp" alt="Mensaje de WhatsApp">Contáctanos</img></a>
                                 </div>
                             </div>
                         </div>
